@@ -13,7 +13,7 @@ services:
       MYSQL_USER: ${MYSQL_USER}
       MYSQL_PASSWORD: ${MYSQL_PASSWORD}
     ports:
-      - "3306:3306"
+      - "3307:3306"
 
   web:
     build: .
@@ -21,7 +21,7 @@ services:
     command: python manage.py runserver 0.0.0.0:8000
     restart: always
     volumes:
-      - .:/sistema
+      - .G:/sistema
     ports:
       - "8000:8000"
     depends_on:

@@ -3,4 +3,4 @@ ENV BACKEND=1
 WORKDIR /sistema
 COPY requirements.txt /sistema//requirements.txt
 RUN pip install -r requirements.txt
-COPY . /sistema/
+COPY . G:/sistema/
