@@ -1,0 +1,10 @@
+# erp
+# backend
+# accounts
+# companies
+# core
+#  Lib
+#  Scripts
+#  pyvenv.cfg
+#  README.md
+#  sistema.sql
